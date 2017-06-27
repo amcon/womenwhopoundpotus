@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: helvetica;
+  font-family: 'Inconsolata', monospace;
 }
 
 h1, h2, p {
@@ -98,7 +98,7 @@ h1, h2, p {
   background-color: white;
   box-sizing: border-box;
   padding: 125px 150px;
-  font-family: 'Inconsolata', monospace;
+  border-bottom: 1px solid black;
 }
 
   .box3 h1 {
@@ -108,6 +108,20 @@ h1, h2, p {
   .box3 p {
     margin-bottom: 50px;
   }
+
+.box4 {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 125px 150px;
+  border-bottom: 1px solid black;
+  color: rgb(124, 158, 207);
+  background-image: url("SYNT.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+}
 
 footer {
   height: 100px;
