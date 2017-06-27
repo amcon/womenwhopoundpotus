@@ -206,6 +206,12 @@ p {
   line-height: 60px;
 }
 
+footer {
+  height: 200px;
+  box-sizing: border-box;
+  padding: 0 25px 25px 25px;
+}
+
 }
 
 @media only screen
@@ -241,6 +247,12 @@ p {
   line-height: 60px;
 }
 
+footer {
+  height: 200px;
+  box-sizing: border-box;
+  padding: 0 25px 25px 25px;
+}
+
 }
 
 @media only screen
@@ -274,6 +286,12 @@ h1 {
 p {
   font-size: 35px;
   line-height: 60px;
+}
+
+footer {
+  height: 200px;
+  box-sizing: border-box;
+  padding: 0 25px 25px 25px;
 }
 
 }
