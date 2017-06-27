@@ -196,6 +196,16 @@ and (orientation: portrait) {
   padding: 50px;
 }
 
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+}
+
+p {
+  font-size: 35px;
+  line-height: 60px;
+}
+
 }
 
 @media only screen
@@ -221,6 +231,16 @@ and (orientation: portrait) {
   padding: 50px;
 }
 
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+}
+
+p {
+  font-size: 35px;
+  line-height: 60px;
+}
+
 }
 
 @media only screen
@@ -244,6 +264,16 @@ and (orientation: portrait) {
 
 .box {
   padding: 50px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+}
+
+p {
+  font-size: 35px;
+  line-height: 60px;
 }
 
 }
