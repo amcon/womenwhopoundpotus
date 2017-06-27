@@ -77,17 +77,11 @@ h1, h2, p {
 .box2 {
   width: 100%;
   background-color: white;
-  padding: 50px;
+  padding: 125px 150px;
   box-sizing: border-box;
   border-bottom: 1px solid black;
+  color: rgb(240, 0, 42);
 }
-
-  #about {
-    color: rgb(240, 0, 42);
-    box-sizing: border-box;
-    padding: 75px 100px;
-    font-family: 'Inconsolata', monospace;
-  }
 
   p {
     line-height: 50px;
@@ -170,3 +164,95 @@ footer {
   footer p {
     line-height: 100px;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: portrait) {
+
+.main {
+  background-attachment: initial;
+  background-size: 130%;
+}
+
+.box {
+  padding: 50px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: landscape) {
+
+
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: portrait) {
+
+.main {
+  background-attachment: initial;
+  background-size: 130%;
+}
+
+.box {
+  padding: 50px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: landscape) {
+
+
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: portrait) {
+
+.main {
+  background-attachment: initial;
+  background-size: 130%;
+}
+
+.box {
+  padding: 50px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: landscape) {
+
+
+
+}
