@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: helvetica;
+}
+
+.main {
+  height: 600px;
+  width: 100%;
+  background-image: url("women-who-pound-potus-1.jpg");
+  background-size: 100%;
+  background-position: right top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 30px 100px;
+}
+
+  #title {
+    height: 400px;
+  }
+
+  #buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    line-height: 35px;
+    font-family: helvetica;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    height: 100px;
+    width: 250px;
+    background-color: transparent;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid white;
+    margin-left: 95px;
+    margin-top: 20px;
+  }
+
+  #buy:hover {
+    background-color: rgb(240, 0, 42);
+    cursor: pointer;
+    color: white;
+    border: none;
+  }
+
+.box2 {
+  width: 100%;
+  background-color: white;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+  #about {
+    display: block;
+    font-size: 20px;
+    line-height: 55px;
+    font-weight: lighter;
+    color: rgb(240, 0, 42);
+    border: 3px solid rgb(240, 0, 42);
+    box-sizing: border-box;
+    padding: 75px;
+  }
+
+  .strong {
+    font-weight: bolder;
+  }
+
+.box3 {
+  height: 500px;
+  width: 100%;
+  background-color: lightblue;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
